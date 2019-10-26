@@ -1,8 +1,5 @@
 package arrayList;
-
-
 import inheritance.Employee;
-
 import java.util.ArrayList;
 
 public class ArrayListTest {
@@ -24,7 +21,7 @@ public class ArrayListTest {
         //Drukowanie informacji o wszytkich obiektach Employee.
 
         for(Employee employee : staff)
-            System.out.println("nazwa pracownika: " + employee.getName() + ",wysokosc wynagordzenia: " + employee.getSalary()
+            System.out.println("nazwa pracownika: " + employee.getName() + ",wysokosc wynagordzenia: " + employee.getSalary() + " PLN"
             + ",data zatrudnienia: " + employee.getHireDay());
         System.out.println("Ilosc osob zapisanych w tablicy: " + staff.size());
     }
